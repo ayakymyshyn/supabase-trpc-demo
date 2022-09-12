@@ -49,16 +49,19 @@ export const countriesRouter = createRouter()
     }),
     async resolve({ input }) {
       const { id } = input;
+
       const country = await prisma.countries.findUnique({
         where: { id },
         select: defaultCountriesSelect,
       });
+
       if (!country) {
         throw new TRPCError({
           code: "NOT_FOUND",
           message: `No post with id '${id}'`,
         });
       }
+
       return country;
     },
   })
