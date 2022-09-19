@@ -1,0 +1,5 @@
+{
+  "projectId": "cl81p8b760359pfly9bj0oxc0",
+  "databaseUrl": "postgresql://postgres:postgres@localhost:54322/postgres",
+  "publicKey": "-----BEGIN RSA PUBLIC KEY-----\nMIIBigKCAYEAvO43SP9oEkQ4tuiZjMOrK0K3nq+qmGr5i4jgNKxgCEqML4cOVD0o\n3MDE/EUY/+IG1NbMvcjwoWl76ugqIvi5tVUdDMEyhkn3n2od1MGeBmTiWG/d4vwH\nPk/PGEKvBC0omgQ34JLV8yqaE7BcTkc6Cu7bypkWaaVBCoeBDsD0FsAOq+5NcxFE\n5GvUPgDlghOmQd2+djixZleUbRIQvBW0l4Yvhob2J12mKTPeMzc7oYKhh2xV0Vxy\nEomvCUS0n5+pdbuS5SUJH6z4rpLIQtybX+7K7HTjrOr0kVc7/siWMQrTMSCaYvAw\nTBEEG4f9JOu6PjXY/KaMe6pwGvw7ck1u+5nw1c/soLUgejWkUGb6pg53ZjdJxT+X\n5O5knnMOuMnn6XtWk6M4ftorGV3O5xeXwq7QxdTQiAqFwIXlDschVIn3OlZtJFvE\noewyYEYRdR/4ob9WRVxiYrilW+imkH9t1NycuAfpxPmlBdXOds7K3STGj9RZWi/j\nAcVE4uFpZ8IJAgMBAAE=\n-----END RSA PUBLIC KEY-----\n"
+}
