@@ -5,7 +5,9 @@ import { trpc } from "../utils/trpc";
 
 const Home: NextPage = () => {
   const utils = trpc.useContext();
+
   const { data, isLoading: isGettingData } = trpc.useQuery(["countries.all"]);
+
   const { mutate: createCountry, isLoading: isAdding } = trpc.useMutation(
     ["countries.add"],
     { onSuccess: () => utils.invalidateQueries(["countries.all"]) }
